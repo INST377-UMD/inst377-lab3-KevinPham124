@@ -1,0 +1,88 @@
+body {
+    background-color: #ff9be1;
+    font-family: cursive;
+  }
+  
+  #header {
+    text-align: center;
+    color: white;
+    background-color: #6bff09;
+    padding: px;
+    font-family: cursive;
+    clear: both;
+    margin: 10px;
+  }
+
+  
+#nav {
+    background-color: rgb(255, 115, 0);
+    text-align: center;
+  }
+  
+  #nav li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #nav li:hover {
+    background-color: #2200ff;
+    color: white;
+  }
+  
+  #nav ul ul {
+    display: none;
+    position: absolute;
+  }
+  
+  #nav ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+#rules:hover {
+    background-color: rgb(160, 19, 43);
+    color: pink;
+}
+
+#rules {
+    padding: 20px;
+    background-color: #e91bab;
+    float: right;
+    width: 25%;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+  }
+
+
+
+#form {
+    padding: 20px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 25px;
+  }
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+.content-area {
+    width: 70%;
+    float: left;
+    margin: 0;
+  }
+
+#yourName {
+    transition: width 0.3s ease-in-out;
+}
+
+#yourName:focus {
+    width: 250px; 
+    outline: none; 
+}
+
